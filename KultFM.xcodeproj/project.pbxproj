@@ -1,0 +1,564 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		72D2258819E461E500353B8F /* kultbg2o14.png in Resources */ = {isa = PBXBuildFile; fileRef = 72D2258419E461E500353B8F /* kultbg2o14.png */; };
+		72D2258919E461E500353B8F /* player_hover.png in Resources */ = {isa = PBXBuildFile; fileRef = 72D2258519E461E500353B8F /* player_hover.png */; };
+		72D2258A19E461E500353B8F /* contact_hover.png in Resources */ = {isa = PBXBuildFile; fileRef = 72D2258619E461E500353B8F /* contact_hover.png */; };
+		72D2258B19E461E500353B8F /* fb_hover.png in Resources */ = {isa = PBXBuildFile; fileRef = 72D2258719E461E500353B8F /* fb_hover.png */; };
+		72D2258F19E4699D00353B8F /* player.png in Resources */ = {isa = PBXBuildFile; fileRef = 72D2258C19E4699D00353B8F /* player.png */; };
+		72D2259019E4699D00353B8F /* contact.png in Resources */ = {isa = PBXBuildFile; fileRef = 72D2258D19E4699D00353B8F /* contact.png */; };
+		72D2259119E4699D00353B8F /* fb.png in Resources */ = {isa = PBXBuildFile; fileRef = 72D2258E19E4699D00353B8F /* fb.png */; };
+		7741452C19561B73002527AE /* background.png in Resources */ = {isa = PBXBuildFile; fileRef = 7741452919561B73002527AE /* background.png */; };
+		7741452D19561B73002527AE /* play1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7741452A19561B73002527AE /* play1.png */; };
+		7741452E19561B73002527AE /* stop1.png in Resources */ = {isa = PBXBuildFile; fileRef = 7741452B19561B73002527AE /* stop1.png */; };
+		77FAA37918C52C5B0055D847 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77FAA37818C52C5B0055D847 /* Foundation.framework */; };
+		77FAA37B18C52C5B0055D847 /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77FAA37A18C52C5B0055D847 /* CoreGraphics.framework */; };
+		77FAA37D18C52C5B0055D847 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77FAA37C18C52C5B0055D847 /* UIKit.framework */; };
+		77FAA38318C52C5B0055D847 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77FAA38118C52C5B0055D847 /* InfoPlist.strings */; };
+		77FAA38518C52C5B0055D847 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 77FAA38418C52C5B0055D847 /* main.m */; };
+		77FAA38918C52C5B0055D847 /* APPAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 77FAA38818C52C5B0055D847 /* APPAppDelegate.m */; };
+		77FAA38C18C52C5B0055D847 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 77FAA38A18C52C5B0055D847 /* Main.storyboard */; };
+		77FAA38F18C52C5B0055D847 /* APPViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 77FAA38E18C52C5B0055D847 /* APPViewController.m */; };
+		77FAA39118C52C5B0055D847 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 77FAA39018C52C5B0055D847 /* Images.xcassets */; };
+		77FAA39818C52C5B0055D847 /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77FAA39718C52C5B0055D847 /* XCTest.framework */; };
+		77FAA39918C52C5B0055D847 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77FAA37818C52C5B0055D847 /* Foundation.framework */; };
+		77FAA39A18C52C5B0055D847 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77FAA37C18C52C5B0055D847 /* UIKit.framework */; };
+		77FAA3A218C52C5B0055D847 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 77FAA3A018C52C5B0055D847 /* InfoPlist.strings */; };
+		77FAA3A418C52C5C0055D847 /* KultFMTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 77FAA3A318C52C5C0055D847 /* KultFMTests.m */; };
+		77FAA3AE18C52C780055D847 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77FAA3AD18C52C780055D847 /* AudioToolbox.framework */; };
+		77FAA3B618C52CB90055D847 /* Packet.m in Sources */ = {isa = PBXBuildFile; fileRef = 77FAA3B118C52CB90055D847 /* Packet.m */; };
+		77FAA3B718C52CB90055D847 /* Queue.m in Sources */ = {isa = PBXBuildFile; fileRef = 77FAA3B318C52CB90055D847 /* Queue.m */; };
+		77FAA3B818C52CB90055D847 /* Radio.m in Sources */ = {isa = PBXBuildFile; fileRef = 77FAA3B518C52CB90055D847 /* Radio.m */; };
+		77FAA3BA18C532FB0055D847 /* kult-ios.jpg in Resources */ = {isa = PBXBuildFile; fileRef = 77FAA3B918C532FB0055D847 /* kult-ios.jpg */; };
+		77FAA3BC18C5346B0055D847 /* SpriteKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 77FAA3BB18C5346B0055D847 /* SpriteKit.framework */; };
+		77FAA3BF18C53BE40055D847 /* stop.png in Resources */ = {isa = PBXBuildFile; fileRef = 77FAA3BD18C53BE40055D847 /* stop.png */; };
+		77FAA3C018C53BE40055D847 /* play.png in Resources */ = {isa = PBXBuildFile; fileRef = 77FAA3BE18C53BE40055D847 /* play.png */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		77FAA39B18C52C5B0055D847 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 77FAA36D18C52C5B0055D847 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 77FAA37418C52C5B0055D847;
+			remoteInfo = KultFM;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		72D2258419E461E500353B8F /* kultbg2o14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = kultbg2o14.png; sourceTree = "<group>"; };
+		72D2258519E461E500353B8F /* player_hover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = player_hover.png; sourceTree = "<group>"; };
+		72D2258619E461E500353B8F /* contact_hover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = contact_hover.png; sourceTree = "<group>"; };
+		72D2258719E461E500353B8F /* fb_hover.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fb_hover.png; sourceTree = "<group>"; };
+		72D2258C19E4699D00353B8F /* player.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = player.png; sourceTree = "<group>"; };
+		72D2258D19E4699D00353B8F /* contact.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = contact.png; sourceTree = "<group>"; };
+		72D2258E19E4699D00353B8F /* fb.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = fb.png; sourceTree = "<group>"; };
+		7741452919561B73002527AE /* background.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = background.png; sourceTree = "<group>"; };
+		7741452A19561B73002527AE /* play1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play1.png; sourceTree = "<group>"; };
+		7741452B19561B73002527AE /* stop1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop1.png; sourceTree = "<group>"; };
+		77FAA37518C52C5B0055D847 /* KultFM.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = KultFM.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		77FAA37818C52C5B0055D847 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		77FAA37A18C52C5B0055D847 /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		77FAA37C18C52C5B0055D847 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		77FAA38018C52C5B0055D847 /* KultFM-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KultFM-Info.plist"; sourceTree = "<group>"; };
+		77FAA38218C52C5B0055D847 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		77FAA38418C52C5B0055D847 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		77FAA38618C52C5B0055D847 /* KultFM-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "KultFM-Prefix.pch"; sourceTree = "<group>"; };
+		77FAA38718C52C5B0055D847 /* APPAppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APPAppDelegate.h; sourceTree = "<group>"; };
+		77FAA38818C52C5B0055D847 /* APPAppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APPAppDelegate.m; sourceTree = "<group>"; };
+		77FAA38B18C52C5B0055D847 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		77FAA38D18C52C5B0055D847 /* APPViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = APPViewController.h; sourceTree = "<group>"; };
+		77FAA38E18C52C5B0055D847 /* APPViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = APPViewController.m; sourceTree = "<group>"; };
+		77FAA39018C52C5B0055D847 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		77FAA39618C52C5B0055D847 /* KultFMTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = KultFMTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		77FAA39718C52C5B0055D847 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		77FAA39F18C52C5B0055D847 /* KultFMTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "KultFMTests-Info.plist"; sourceTree = "<group>"; };
+		77FAA3A118C52C5B0055D847 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		77FAA3A318C52C5C0055D847 /* KultFMTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = KultFMTests.m; sourceTree = "<group>"; };
+		77FAA3AD18C52C780055D847 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		77FAA3B018C52CB90055D847 /* Packet.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Packet.h; sourceTree = "<group>"; };
+		77FAA3B118C52CB90055D847 /* Packet.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Packet.m; sourceTree = "<group>"; };
+		77FAA3B218C52CB90055D847 /* Queue.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Queue.h; sourceTree = "<group>"; };
+		77FAA3B318C52CB90055D847 /* Queue.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Queue.m; sourceTree = "<group>"; };
+		77FAA3B418C52CB90055D847 /* Radio.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Radio.h; sourceTree = "<group>"; };
+		77FAA3B518C52CB90055D847 /* Radio.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Radio.m; sourceTree = "<group>"; };
+		77FAA3B918C532FB0055D847 /* kult-ios.jpg */ = {isa = PBXFileReference; lastKnownFileType = image.jpeg; path = "kult-ios.jpg"; sourceTree = "<group>"; };
+		77FAA3BB18C5346B0055D847 /* SpriteKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SpriteKit.framework; path = System/Library/Frameworks/SpriteKit.framework; sourceTree = SDKROOT; };
+		77FAA3BD18C53BE40055D847 /* stop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stop.png; sourceTree = "<group>"; };
+		77FAA3BE18C53BE40055D847 /* play.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = play.png; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		77FAA37218C52C5B0055D847 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77FAA3BC18C5346B0055D847 /* SpriteKit.framework in Frameworks */,
+				77FAA3AE18C52C780055D847 /* AudioToolbox.framework in Frameworks */,
+				77FAA37B18C52C5B0055D847 /* CoreGraphics.framework in Frameworks */,
+				77FAA37D18C52C5B0055D847 /* UIKit.framework in Frameworks */,
+				77FAA37918C52C5B0055D847 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77FAA39318C52C5B0055D847 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77FAA39818C52C5B0055D847 /* XCTest.framework in Frameworks */,
+				77FAA39A18C52C5B0055D847 /* UIKit.framework in Frameworks */,
+				77FAA39918C52C5B0055D847 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		77FAA36C18C52C5B0055D847 = {
+			isa = PBXGroup;
+			children = (
+				77FAA3AF18C52CB90055D847 /* Radio */,
+				77FAA37E18C52C5B0055D847 /* KultFM */,
+				77FAA39D18C52C5B0055D847 /* KultFMTests */,
+				77FAA37718C52C5B0055D847 /* Frameworks */,
+				77FAA37618C52C5B0055D847 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		77FAA37618C52C5B0055D847 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				77FAA37518C52C5B0055D847 /* KultFM.app */,
+				77FAA39618C52C5B0055D847 /* KultFMTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		77FAA37718C52C5B0055D847 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				77FAA3BB18C5346B0055D847 /* SpriteKit.framework */,
+				77FAA3AD18C52C780055D847 /* AudioToolbox.framework */,
+				77FAA37818C52C5B0055D847 /* Foundation.framework */,
+				77FAA37A18C52C5B0055D847 /* CoreGraphics.framework */,
+				77FAA37C18C52C5B0055D847 /* UIKit.framework */,
+				77FAA39718C52C5B0055D847 /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		77FAA37E18C52C5B0055D847 /* KultFM */ = {
+			isa = PBXGroup;
+			children = (
+				77FAA38718C52C5B0055D847 /* APPAppDelegate.h */,
+				77FAA38818C52C5B0055D847 /* APPAppDelegate.m */,
+				77FAA38A18C52C5B0055D847 /* Main.storyboard */,
+				77FAA38D18C52C5B0055D847 /* APPViewController.h */,
+				77FAA38E18C52C5B0055D847 /* APPViewController.m */,
+				77FAA39018C52C5B0055D847 /* Images.xcassets */,
+				77FAA37F18C52C5B0055D847 /* Supporting Files */,
+			);
+			path = KultFM;
+			sourceTree = "<group>";
+		};
+		77FAA37F18C52C5B0055D847 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				72D2258C19E4699D00353B8F /* player.png */,
+				72D2258D19E4699D00353B8F /* contact.png */,
+				72D2258E19E4699D00353B8F /* fb.png */,
+				72D2258419E461E500353B8F /* kultbg2o14.png */,
+				72D2258519E461E500353B8F /* player_hover.png */,
+				72D2258619E461E500353B8F /* contact_hover.png */,
+				72D2258719E461E500353B8F /* fb_hover.png */,
+				7741452919561B73002527AE /* background.png */,
+				7741452A19561B73002527AE /* play1.png */,
+				7741452B19561B73002527AE /* stop1.png */,
+				77FAA3BD18C53BE40055D847 /* stop.png */,
+				77FAA3BE18C53BE40055D847 /* play.png */,
+				77FAA3B918C532FB0055D847 /* kult-ios.jpg */,
+				77FAA38018C52C5B0055D847 /* KultFM-Info.plist */,
+				77FAA38118C52C5B0055D847 /* InfoPlist.strings */,
+				77FAA38418C52C5B0055D847 /* main.m */,
+				77FAA38618C52C5B0055D847 /* KultFM-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		77FAA39D18C52C5B0055D847 /* KultFMTests */ = {
+			isa = PBXGroup;
+			children = (
+				77FAA3A318C52C5C0055D847 /* KultFMTests.m */,
+				77FAA39E18C52C5B0055D847 /* Supporting Files */,
+			);
+			path = KultFMTests;
+			sourceTree = "<group>";
+		};
+		77FAA39E18C52C5B0055D847 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				77FAA39F18C52C5B0055D847 /* KultFMTests-Info.plist */,
+				77FAA3A018C52C5B0055D847 /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		77FAA3AF18C52CB90055D847 /* Radio */ = {
+			isa = PBXGroup;
+			children = (
+				77FAA3B018C52CB90055D847 /* Packet.h */,
+				77FAA3B118C52CB90055D847 /* Packet.m */,
+				77FAA3B218C52CB90055D847 /* Queue.h */,
+				77FAA3B318C52CB90055D847 /* Queue.m */,
+				77FAA3B418C52CB90055D847 /* Radio.h */,
+				77FAA3B518C52CB90055D847 /* Radio.m */,
+			);
+			path = Radio;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		77FAA37418C52C5B0055D847 /* KultFM */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77FAA3A718C52C5C0055D847 /* Build configuration list for PBXNativeTarget "KultFM" */;
+			buildPhases = (
+				77FAA37118C52C5B0055D847 /* Sources */,
+				77FAA37218C52C5B0055D847 /* Frameworks */,
+				77FAA37318C52C5B0055D847 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = KultFM;
+			productName = KultFM;
+			productReference = 77FAA37518C52C5B0055D847 /* KultFM.app */;
+			productType = "com.apple.product-type.application";
+		};
+		77FAA39518C52C5B0055D847 /* KultFMTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 77FAA3AA18C52C5C0055D847 /* Build configuration list for PBXNativeTarget "KultFMTests" */;
+			buildPhases = (
+				77FAA39218C52C5B0055D847 /* Sources */,
+				77FAA39318C52C5B0055D847 /* Frameworks */,
+				77FAA39418C52C5B0055D847 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				77FAA39C18C52C5B0055D847 /* PBXTargetDependency */,
+			);
+			name = KultFMTests;
+			productName = KultFMTests;
+			productReference = 77FAA39618C52C5B0055D847 /* KultFMTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		77FAA36D18C52C5B0055D847 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				CLASSPREFIX = APP;
+				LastUpgradeCheck = 0500;
+				ORGANIZATIONNAME = devility;
+				TargetAttributes = {
+					77FAA39518C52C5B0055D847 = {
+						TestTargetID = 77FAA37418C52C5B0055D847;
+					};
+				};
+			};
+			buildConfigurationList = 77FAA37018C52C5B0055D847 /* Build configuration list for PBXProject "KultFM" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 77FAA36C18C52C5B0055D847;
+			productRefGroup = 77FAA37618C52C5B0055D847 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				77FAA37418C52C5B0055D847 /* KultFM */,
+				77FAA39518C52C5B0055D847 /* KultFMTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		77FAA37318C52C5B0055D847 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				72D2258F19E4699D00353B8F /* player.png in Resources */,
+				72D2259119E4699D00353B8F /* fb.png in Resources */,
+				72D2258819E461E500353B8F /* kultbg2o14.png in Resources */,
+				77FAA39118C52C5B0055D847 /* Images.xcassets in Resources */,
+				7741452E19561B73002527AE /* stop1.png in Resources */,
+				77FAA3BF18C53BE40055D847 /* stop.png in Resources */,
+				7741452C19561B73002527AE /* background.png in Resources */,
+				72D2259019E4699D00353B8F /* contact.png in Resources */,
+				7741452D19561B73002527AE /* play1.png in Resources */,
+				72D2258B19E461E500353B8F /* fb_hover.png in Resources */,
+				77FAA38318C52C5B0055D847 /* InfoPlist.strings in Resources */,
+				72D2258A19E461E500353B8F /* contact_hover.png in Resources */,
+				72D2258919E461E500353B8F /* player_hover.png in Resources */,
+				77FAA38C18C52C5B0055D847 /* Main.storyboard in Resources */,
+				77FAA3BA18C532FB0055D847 /* kult-ios.jpg in Resources */,
+				77FAA3C018C53BE40055D847 /* play.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77FAA39418C52C5B0055D847 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77FAA3A218C52C5B0055D847 /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		77FAA37118C52C5B0055D847 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77FAA3B718C52CB90055D847 /* Queue.m in Sources */,
+				77FAA38F18C52C5B0055D847 /* APPViewController.m in Sources */,
+				77FAA38918C52C5B0055D847 /* APPAppDelegate.m in Sources */,
+				77FAA3B818C52CB90055D847 /* Radio.m in Sources */,
+				77FAA38518C52C5B0055D847 /* main.m in Sources */,
+				77FAA3B618C52CB90055D847 /* Packet.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		77FAA39218C52C5B0055D847 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				77FAA3A418C52C5C0055D847 /* KultFMTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		77FAA39C18C52C5B0055D847 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 77FAA37418C52C5B0055D847 /* KultFM */;
+			targetProxy = 77FAA39B18C52C5B0055D847 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		77FAA38118C52C5B0055D847 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77FAA38218C52C5B0055D847 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		77FAA38A18C52C5B0055D847 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77FAA38B18C52C5B0055D847 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		77FAA3A018C52C5B0055D847 /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				77FAA3A118C52C5B0055D847 /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		77FAA3A518C52C5C0055D847 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		77FAA3A618C52C5C0055D847 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		77FAA3A818C52C5C0055D847 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KultFM/KultFM-Prefix.pch";
+				INFOPLIST_FILE = "KultFM/KultFM-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		77FAA3A918C52C5C0055D847 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KultFM/KultFM-Prefix.pch";
+				INFOPLIST_FILE = "KultFM/KultFM-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		77FAA3AB18C52C5C0055D847 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KultFM.app/KultFM";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KultFM/KultFM-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "KultFMTests/KultFMTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		77FAA3AC18C52C5C0055D847 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ARCHS = "$(ARCHS_STANDARD_INCLUDING_64_BIT)";
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/KultFM.app/KultFM";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "KultFM/KultFM-Prefix.pch";
+				INFOPLIST_FILE = "KultFMTests/KultFMTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		77FAA37018C52C5B0055D847 /* Build configuration list for PBXProject "KultFM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77FAA3A518C52C5C0055D847 /* Debug */,
+				77FAA3A618C52C5C0055D847 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77FAA3A718C52C5C0055D847 /* Build configuration list for PBXNativeTarget "KultFM" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77FAA3A818C52C5C0055D847 /* Debug */,
+				77FAA3A918C52C5C0055D847 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		77FAA3AA18C52C5C0055D847 /* Build configuration list for PBXNativeTarget "KultFMTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				77FAA3AB18C52C5C0055D847 /* Debug */,
+				77FAA3AC18C52C5C0055D847 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 77FAA36D18C52C5B0055D847 /* Project object */;
+}
